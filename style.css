@@ -127,6 +127,7 @@ img {
     border-bottom: var(--primary-color) 4px solid;
 }
 
+/* container style  */
 .container {
     max-width: 80%;
     margin: auto;
@@ -134,6 +135,86 @@ img {
     padding: 0 2rem;
 }
 
+/* tab content styles  */
+.tab-content {
+    padding: 3rem;
+}
+
+#tab-1-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-1-content-inner p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.tab-2-content-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.tab-2-content-top p {
+    font-size: 1.2rem;
+}
+
+.tab-2-content-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#tab-3-content div {
+    margin-bottom: 2rem;
+}
+
+#tab-3-content div p {
+    margin-bottom: 1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table thead td {
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table tbody tr td:first-child {
+    text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #222;
+}
+
+
+/* text style  */
+.text-dark {
+    color: rgba(128, 128, 128, 0.203);
+}
+
+.text-center {
+    text-align: center;
+}
 
 /* button styles  */
 .btn {
@@ -160,6 +241,13 @@ img {
 .btn-xl {
     padding: 1.5rem 2.5rem;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    text-shadow: 0 3px 3px black;
+}
+
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     text-shadow: 0 3px 3px black;
 }
